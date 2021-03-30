@@ -1,0 +1,43 @@
+action: GLOB, msg: packaging
+cwd: /Users/norbertsass-gyarmati/PycharmProjects/NuclearReactor
+cmd: /Library/Frameworks/Python.framework/Versions/3.9/bin/python3.9 setup.py sdist --formats=zip --dist-dir .tox/dist
+running sdist
+running egg_info
+writing NuclearReactor.egg-info/PKG-INFO
+writing dependency_links to NuclearReactor.egg-info/dependency_links.txt
+writing top-level names to NuclearReactor.egg-info/top_level.txt
+reading manifest file 'NuclearReactor.egg-info/SOURCES.txt'
+writing manifest file 'NuclearReactor.egg-info/SOURCES.txt'
+warning: sdist: standard file not found: should have one of README, README.rst, README.txt, README.md
+
+running check
+warning: check: missing required meta-data: url
+
+warning: check: missing meta-data: either (author and author_email) or (maintainer and maintainer_email) should be supplied
+
+creating NuclearReactor-1.0
+creating NuclearReactor-1.0/NuclearReactor.egg-info
+creating NuclearReactor-1.0/controller
+copying files to NuclearReactor-1.0...
+copying setup.py -> NuclearReactor-1.0
+copying NuclearReactor.egg-info/PKG-INFO -> NuclearReactor-1.0/NuclearReactor.egg-info
+copying NuclearReactor.egg-info/SOURCES.txt -> NuclearReactor-1.0/NuclearReactor.egg-info
+copying NuclearReactor.egg-info/dependency_links.txt -> NuclearReactor-1.0/NuclearReactor.egg-info
+copying NuclearReactor.egg-info/top_level.txt -> NuclearReactor-1.0/NuclearReactor.egg-info
+copying controller/__init__.py -> NuclearReactor-1.0/controller
+copying controller/operator.py -> NuclearReactor-1.0/controller
+Writing NuclearReactor-1.0/setup.cfg
+creating '.tox/dist/NuclearReactor-1.0.zip' and adding 'NuclearReactor-1.0' to it
+adding 'NuclearReactor-1.0'
+adding 'NuclearReactor-1.0/controller'
+adding 'NuclearReactor-1.0/NuclearReactor.egg-info'
+adding 'NuclearReactor-1.0/PKG-INFO'
+adding 'NuclearReactor-1.0/setup.py'
+adding 'NuclearReactor-1.0/setup.cfg'
+adding 'NuclearReactor-1.0/controller/operator.py'
+adding 'NuclearReactor-1.0/controller/__init__.py'
+adding 'NuclearReactor-1.0/NuclearReactor.egg-info/PKG-INFO'
+adding 'NuclearReactor-1.0/NuclearReactor.egg-info/SOURCES.txt'
+adding 'NuclearReactor-1.0/NuclearReactor.egg-info/top_level.txt'
+adding 'NuclearReactor-1.0/NuclearReactor.egg-info/dependency_links.txt'
+removing 'NuclearReactor-1.0' (and everything under it)
